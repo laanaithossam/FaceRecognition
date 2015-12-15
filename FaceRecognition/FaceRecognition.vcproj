@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9,00"
+	Name="FaceRecognition"
+	ProjectGUID="{7BE9CB74-2FF5-42F6-9B37-E306848A3EB1}"
+	Keyword="MakeFileProj"
+	TargetFrameworkVersion="196613"
+	>
+	<Platforms>
+		<Platform
+			Name="Win32"
+		/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="$(ConfigurationName)"
+			IntermediateDirectory="$(ConfigurationName)"
+			ConfigurationType="0"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="qmake &amp; nmake"
+				ReBuildCommandLine="qmake &amp; nmake"
+				CleanCommandLine="nmake clean"
+				Output="Debug\FaceRecognition.exe"
+				PreprocessorDefinitions="WIN32;_DEBUG;_CRT_SECURE_NO_DEPRECATE"
+				IncludeSearchPath="&quot;C:\Program Files\OpenCV\OpenCV210\include\opencv&quot;"
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="$(ConfigurationName)"
+			IntermediateDirectory="$(ConfigurationName)"
+			ConfigurationType="0"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="qmake &amp; nmake release"
+				ReBuildCommandLine="qmake &amp; nmake release"
+				CleanCommandLine="nmake clean"
+				Output="Release\FaceRecognition.exe"
+				PreprocessorDefinitions="WIN32;NDEBUG"
+				IncludeSearchPath=""
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter
+			Name="Fichiers sources"
+			Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
+			>
+			<File
+				RelativePath=".\Detection.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Extraction.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\FaceDatabase.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\FaceRecognition.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\main.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Recognition.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Users.cpp"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="Fichiers d&apos;en-tête"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
+			>
+			<File
+				RelativePath=".\Detection.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Extraction.h"
+				>
+			</File>
+			<File
+				RelativePath=".\FaceDatabase.h"
+				>
+			</File>
+			<File
+				RelativePath=".\FaceRecognition.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Recognition.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Users.h"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="Fichiers de ressources"
+			Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav"
+			UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}"
+			>
+		</Filter>
+		<File
+			RelativePath=".\FaceRecognition.pro"
+			>
+		</File>
+		<File
+			RelativePath=".\readme.txt"
+			>
+		</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>
